@@ -5,97 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
     <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <div class="logga">
-            <p>Bergmans</p>
-        </div>
-        <nav>
-            <p>Tröjor</p>
-            <p>Peruker</p>
-            <p>Byxor</p>
-            <p>Strumpor</p>
-            <button type="button" >Varukorg</button>
-        </nav>
+
+        <header>
+            <div class="img">
+                <img src="img/logga.webp" alt="Bergmans Loggan">
+            </div>
+            <nav>
+                <a href="">Tröjor</a>
+                <!-- <p>Tröjor</p> -->
+                <!-- <p>Peruker</p> -->
+                <a href="https://www.apollohair.se/loesningar/maen/peruk-maen">Peruker</a>
+            <!-- <p>Byxor</p> -->
+                <a href="https://www.massimodutti.com/se/100-linen-striped-trousers-l00087288?pelement=47753787">Byxor</a>
+            <!-- <p>Strumpor</p> -->
+                <a href="https://www.massimodutti.com/se/ribbed-sports-socks-in-a-wool-blend-l00614461?pelement=45932806">Strumpor</a>
+                <button onclick="varukorg()" type="button" >Varukorg</button>
+            </nav>
     </header>
     <article>
         <img src="img/vitw.webp" alt="Högkvaletativ vit tshirt som borde köpas">
-        <div class="allt">
+        <div class="vit">
             <div class="del1">
-                <p>Vit tröja</p>
-                <p>499kr</p>
-            </div>
-            <div class="Varukorg">
-                <p>Varukorg</p>
+                <p>Isabellavit tröja</p>
+                <p class="pris">499kr</p>
+                <button onclick="vitTröja()" type="button">Lägg Till I Varukorg</button>
             </div>
         </div>
     </article>
     <article>
         <img src="img/beige.webp" alt="beige Högkvaletativ tshirt Som vill köpas">
-        <div class="allt">
+        <div class="beige">
             <div class="del1">
-                <p>Vit tröja</p>
-                <p>499kr</p>
-            </div>
-            <div class="Varukorg">
-                <p>Varukorg</p>
+                <p>Indisk Gul tröja</p>
+                <p class="pris">499kr</p>
+                <button onclick="beigeTröja()" type="button">Lägg Till I Varukorg</button>
             </div>
         </div>
     </article>
     <article>
         <img src="img/Ljusbrun.webp" alt="Snygg Ljusbrun tshirt">
-        <div class="allt">
+        <div class="ljusbrun">
             <div class="del1">
-                <p>Vit tröja</p>
-                <p>499kr</p>
-            </div>
-            <div class="Varukorg">
-                <p>Varukorg</p>
+                <p>ljusbrun tröja</p>
+                <p class="pris">499kr</p>
+                <button onclick="ljusbrunTröjaz()" type="button">Lägg Till I Varukorg</button>
             </div>
         </div>
     </article>
     <article>
         <img src="img/Mörkgrå.webp" alt="Cool mörkgrå tshirt">
-        <div class="allt">
+        <div class="grå">
             <div class="del1">
-                <p>Vit tröja</p>
-                <p>499kr</p>
-            </div>
-            <div class="Varukorg">
-                <p>Varukorg</p>
+                <p>Mörkgrå tröja</p>
+                <p class="pris">499kr</p>
+                <button onclick="mörkgråTröja" type="button">Lägg Till I Varukorg</button>
             </div>
         </div>
     </article>
     <article>
         <img src="img/mörkgrön.webp" alt="Häftig mörkgrön tröja med ett märke på">
-        <div class="allt">
+        <div class="grön">
             <div class="del1">
-                <p>Vit tröja</p>
-                <p>499kr</p>
-            </div>
-            <div class="Varukorg">
-                <p>Varukorg</p>
+                <p>Mörkgrön tröja</p>
+                <p class="pris">499kr</p>
+                <button onclick="mörkgrönTröja()" type="button">Lägg Till I Varukorg</button>
             </div>
         </div>
     </article>
     <article>
         <img src="img/Turkos.webp" alt="Turkos TRöja som är maffig">
-        <div class="allt">
+        <div class="blå">
             <div class="del1">
-                <p>Vit tröja</p>
-                <p>499kr</p>
-            </div>
-            <div class="Varukorg">
-                <p>Varukorg</p>
+                <p>Turkos tröja</p>
+                <p class="pris">499kr</p>
+                <button onclick="turkosTröja()" type="button">Lägg Till I Varukorg</button>
             </div>
         </div>
     </article>
-
     <footer>
-
-        <p>Om oss</p>
+        <a href="https://www.coop.se/Globala-sidor/om-coop/">Om Oss</a>
     </footer>
 </body>
 </html>
