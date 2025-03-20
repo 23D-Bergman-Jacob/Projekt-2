@@ -47,3 +47,16 @@ function turkosTröja()
     varukorg_items.push('turkosTröja')
     prise = varukorg_items.length*499
 }
+function varukorg()
+{
+    // const url = "Varukorg.html" 
+    // let windowFeatures = "";
+    const popup = window.open('Varukorg.html', "PopupWindow", width=1200,height=800);
+
+    // popup.onload = function() {
+    //     popup.postMessage(varukorg_items, '*');
+    // };
+let lista = popup.document.querySelector("p");
+lista.textContent = ('hejsan')
+
+}
