@@ -31,6 +31,7 @@ function mörkgråTröja()
 {
     varukorgValue++
     varukorg_items.push('mörkgråTröja')
+    console.log("yeu")
     prise = varukorg_items.length*499
 }
 
