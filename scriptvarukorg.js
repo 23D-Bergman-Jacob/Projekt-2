@@ -50,7 +50,7 @@ window.onload = function () {
     const img = document.createElement("img")
     img.src = bilder[i]
     img.alt = "Produktbild"
-    img.style.width = "20vw"
+    img.style.width = "100px"
     img.style.height = "auto"
     li.appendChild(img)
     bildList.appendChild(li)
