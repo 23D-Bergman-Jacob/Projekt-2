@@ -1,8 +1,8 @@
 let varukorgValue = 0
-const varukorg_items = []
+// const varukorg_items = []
 let prise
 let varubild = []
-
+const varukorg_items = JSON.parse(localStorage.getItem('varukorg_items')) || [];
 function vitTröja()
 {
     varukorgValue++
@@ -49,8 +49,6 @@ function turkosTröja()
 }
 function varukorg()
 {
-
     localStorage.setItem('varukorg_items', JSON.stringify(varukorg_items));
     window.open('Varukorg.html', 'Varukorg', 'width=800,height=600');
-
 }
